@@ -14,4 +14,4 @@ Microcmpt是微服务架构落地解决方案，它主要由msa-api-gateway(微�
  - [服务注册中心] - [msa-api-regcovery]()
 
 ### Sample for Microcmpt
-[Microcmpt Sample On GitHub](https://github.com/microcmpt/msa-sample)
+ - [Microcmpt Sample On GitHub](https://github.com/microcmpt/msa-sample)
