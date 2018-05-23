@@ -14,7 +14,7 @@ public class Rpc4jServerSampleApplication {
 ### API Help
 - 查询所有服务端服务信息
 ```$xslt
-url: GET [ip:port]/api/v1/services
+curl -v [ip:port]/api/v1/services
 ```
 response:
 ```$xslt
@@ -32,7 +32,7 @@ response:
 ```
 - 根据服务名查询服务信息(TODO)
 ```$xslt
-url: GET [ip:port]/api/v1/services/{name}
+curl -v [ip:port]/api/v1/services/{name}
 ```
 response:
 ```$xslt
@@ -50,7 +50,7 @@ response:
 ```
 - 新增服务节点(TODO)
 ```$xslt
-url: POST [ip:port]/api/v1/service/{name}/addr/{serviceAddr}
+curl -v -X POST [ip:port]/api/v1/service/{name}/addr/{serviceAddr}
 ```
 response:
 ```$xslt
@@ -60,7 +60,7 @@ response:
 ```
 - 删除服务节点(TODO)
 ```$xslt
-url: DELETE [ip:port]/api/v1/service/{name}/addr/{serviceAddr}
+curl -v -X DELETE [ip:port]/api/v1/service/{name}/addr/{serviceAddr}
 ```
 response:
 ```$xslt
@@ -70,7 +70,7 @@ response:
 ```
 - 修改服务节点(TODO)
 ```$xslt
-url: UPDATE [ip:port]/api/v1/service/{name}/addr/{serviceAddr}/value/{val}
+curl -v -X UPDATE [ip:port]/api/v1/service/{name}/addr/{serviceAddr}/value/{val}
 ```
 response:
 ```$xslt
