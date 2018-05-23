@@ -30,7 +30,7 @@ response:
     ]
 }
 ```
-- 根据服务名查询服务信息
+- 根据服务名查询服务信息(TODO)
 ```$xslt
 url: GET [ip:port]/api/v1/services/{name}
 ```
@@ -48,7 +48,7 @@ response:
     ]
 }
 ```
-- 新增服务节点
+- 新增服务节点(TODO)
 ```$xslt
 url: POST [ip:port]/api/v1/service/{name}/addr/{serviceAddr}
 ```
@@ -58,7 +58,7 @@ response:
     "result": "ok"
 }
 ```
-- 删除服务节点
+- 删除服务节点(TODO)
 ```$xslt
 url: DELETE [ip:port]/api/v1/service/{name}/addr/{serviceAddr}
 ```
@@ -68,7 +68,7 @@ response:
     "result": "ok"
 }
 ```
-- 修改服务节点
+- 修改服务节点(TODO)
 ```$xslt
 url: UPDATE [ip:port]/api/v1/service/{name}/addr/{serviceAddr}/value/{val}
 ```
