@@ -129,3 +129,25 @@ public class Rpc4jClientSampleApplication {
 	}
 }
 ```
+
+### Rpc4j Base On Spring Boot Config
+#### 服务端配置
+```$xslt
+#服务端端口号，默认为8025，可修改
+spring.rpc.server.port=8025
+#服务注册中心地址，默认为localhost:2181，可修改，也可配置多个地址需以英文逗号隔开
+spring.rpc.server.registry-address=localhost:2181
+```
+#### 客户端配置
+```$xslt
+#服务注册中心地址，默认为localhost:2181，可修改，也可配置多个地址需以英文逗号隔开
+spring.rpc.client.registry-address=localhost:2181
+```
+
+### Annotation
+#### @EnableRpc4jServer
+@EnableRpc4jServer用于开启rpc服务提供端RpcServer以及注册中心和健康监测的自动配置
+#### @EnableRpc4jClients
+@EnableRpc4jClients用于开启服务消费端(客户端)RpcClient以及服务发现自动配置
+#### @Rpc4jClient
+@Rpc4jClient用于标记服务消费端调用的远程服务，将其注入到spring容器并做动态代理
