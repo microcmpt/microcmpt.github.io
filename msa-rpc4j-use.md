@@ -1,8 +1,8 @@
 ## msa-rpc4j
 ### Quick Start
-#### _1.msa-rpc4j与Spring Boot结合使用_
-##### 1.1.服务端
-#####  step1:引入msa-rpc4j-server
+#### _msa-rpc4j与Spring Boot结合使用_
+##### 服务端
+##### step1:引入msa-rpc4j-server
 maven:
 ```$xslt
 <dependency>
@@ -65,7 +65,7 @@ public class Rpc4jServerSampleApplication {
 }
 ```
 
-##### 1.2.消费端
+##### 消费端
 #####  step1:引入msa-rpc-client和spring-boot-msa-rpc4j-starter
 maven:
 ```$xslt
