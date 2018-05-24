@@ -149,5 +149,7 @@ spring.rpc.client.registry-address=localhost:2181
 @EnableRpc4jServer用于开启rpc服务提供端RpcServer以及注册中心和健康监测的自动配置
 #### @EnableRpc4jClients
 @EnableRpc4jClients用于开启服务消费端(客户端)RpcClient以及服务发现自动配置
+#### @RpcService
+@RpcService用于标记该服务为暴露出去的API服务，服务端启动时自动注册到注册中心
 #### @Rpc4jClient
 @Rpc4jClient用于标记服务消费端调用的远程服务，将其注入到spring容器并做动态代理
