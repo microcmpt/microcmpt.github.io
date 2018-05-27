@@ -1,4 +1,6 @@
-## msa-rpc4j
+## spring-boot-msa-rpc4j-use
+### Introduction
+spring-boot-msa-rpc4j是对msa-rpc4j框架与spring boot整合，利用spring boot的自动配置特性自动配置msa-rpc4j。
 ### Quick Start
 ##### 服务端
 ##### step1:引入spring-boot-msa-rpc4j-starter
