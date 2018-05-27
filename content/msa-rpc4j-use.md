@@ -58,9 +58,16 @@ gradle:
 ```$xslt
 compile group: 'com.github.microcmpt', name: 'msa-rpc-client', version: '1.0-SNAPSHOT'
 ```
-##### step2:通过DefaultInvocationProxy创建代理客户端
+##### step2:配置RpcClientFactory
 ```
-HelloRpc4jService client = DefaultInvocationProxy.newInstance(HelloRpc4jService.class);
+ZkServiceDiscovery discovery = new ZkServiceDiscovery();
+discovery.setZkAddress("localhost:2181");
+RpcClient client = new RpcClient(discovery);
+RpcClientFactory factory = new RpcClientFactory(new DefaultInvocationProxy(rpcClient));
+```
+##### step3:通过RpcClientFactory实例创建HelloRpc4jService代理类
+```
+HelloRpc4jService client = factory.newClient(HelloRpc4jService.class);
 String resp = client.hello("rpc4j");
 System.out.println("返回结果:" + resp);
 ```
