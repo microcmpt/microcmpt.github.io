@@ -13,7 +13,9 @@ Microcmpt是微服务架构落地解决方案，它主要由msa-api-gateway(微�
    - [spring-boot-msa-rpc4j](content/spring-boot-msa-rpc4j-use.md)
  - [服务网关] - [msa-api-gateway]()
  - [定时任务调度中心] - [msa-scheduler]()
- - [服务注册中心] - [msa-api-regcovery](content/msa-api-regcovery.md)
+ - [服务注册中心]
+   - [api-regcovery]()
+   - [spring-boot-api-regcovery-dashboard](content/spring-boot-api-regcovery-dashboard-use.md)
 
 ### Sample for Microcmpt
  - [Microcmpt Sample On GitHub](https://github.com/microcmpt/msa-sample)
