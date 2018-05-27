@@ -1,14 +1,9 @@
 ## msa-rpc4j
 ### Quick Start
 ##### 服务端
-##### step1:引入msa-rpc4j-server
+##### step1:引入spring-boot-msa-rpc4j-starter
 maven:
 ```$xslt
-<dependency>
-  <groupId>com.github.microcmpt</groupId>
-  <artifactId>msa-rpc-server</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>spring-boot-msa-rpc4j-starter</artifactId>
@@ -17,7 +12,6 @@ maven:
 ```
 gradle:
 ```$xslt
-compile group: 'com.github.microcmpt', name: 'msa-rpc-server', version: '1.0-SNAPSHOT'
 compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0-SNAPSHOT'
 ```
 #####  step2:定义一个服务端接口HelloRpc4jService
@@ -65,14 +59,9 @@ public class Rpc4jServerSampleApplication {
 ```
 
 ##### 消费端
-#####  step1:引入msa-rpc-client和spring-boot-msa-rpc4j-starter
+#####  step1:引入spring-boot-msa-rpc4j-starter
 maven:
 ```$xslt
-<dependency>
-  <groupId>com.github.microcmpt</groupId>
-  <artifactId>msa-rpc-client</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>spring-boot-msa-rpc4j-starter</artifactId>
@@ -81,7 +70,6 @@ maven:
 ```
 gradle:
 ```$xslt
-compile group: 'com.github.microcmpt', name: 'msa-rpc-client', version: '1.0-SNAPSHOT'
 compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0-SNAPSHOT'
 ```
 ##### step2:定义一个消费端接口HelloRpc4jServiceRpcClient并添加注解@Rpc4jClient
@@ -148,7 +136,5 @@ spring.rpc.client.registry-address=localhost:2181
 @EnableRpc4jServer用于开启rpc服务提供端RpcServer以及注册中心和健康监测的自动配置
 #### @EnableRpc4jClients
 @EnableRpc4jClients用于开启服务消费端(客户端)RpcClient以及服务发现自动配置
-#### @RpcService
-@RpcService用于标记该服务为暴露出去的API服务，服务端启动时自动注册到注册中心
 #### @Rpc4jClient
 @Rpc4jClient用于标记服务消费端调用的远程服务，将其注入到spring容器并做动态代理
