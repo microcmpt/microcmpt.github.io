@@ -9,10 +9,16 @@ maven:
   <artifactId>msa-rpc-server</artifactId>
   <version>1.0-SNAPSHOT</version>
 </dependency>
+<dependency>
+  <groupId>com.github.microcmpt</groupId>
+  <artifactId>spring-boot-msa-rpc4j-starter</artifactId>
+  <version>1.0-SNAPSHOT</version>
+</dependency>
 ```
 gradle:
 ```$xslt
 compile group: 'com.github.microcmpt', name: 'msa-rpc-server', version: '1.0-SNAPSHOT'
+compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0-SNAPSHOT'
 ```
 #####  step2:定义一个服务端接口HelloRpc4jService
 ```
