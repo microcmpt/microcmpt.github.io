@@ -2,7 +2,7 @@
 ### Introduction
 用于和spring boot结合自动配置，开启服务注册中心web控制台，可以查看服务注册中心服务信息详细或者删除新增修改服务操作。
 ### Quick Start
-引入spring-boot-api-regcovery-dashboard包
+引入spring-boot-api-regcovery-dashboard包<br/>
 maven:
 ```
 <dependency>
