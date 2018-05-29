@@ -14,7 +14,7 @@ maven:
 ```
 gradle:
 ```$xslt
-compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0-SNAPSHOT'
+compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0.1'
 ```
 #####  step2:定义一个服务端接口HelloRpc4jService
 ```
@@ -72,7 +72,7 @@ maven:
 ```
 gradle:
 ```$xslt
-compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0-SNAPSHOT'
+compile group: 'com.github.microcmpt', name: 'spring-boot-msa-rpc4j-starter', version: '1.0.1'
 ```
 ##### step2:定义一个消费端接口HelloRpc4jServiceRpcClient并添加注解@Rpc4jClient
 ```

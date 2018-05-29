@@ -15,7 +15,7 @@ maven:
 ```
 gradle:
 ```$xslt
-compile group: 'com.github.microcmpt', name: 'msa-rpc-server', version: '1.0-SNAPSHOT'
+compile group: 'com.github.microcmpt', name: 'msa-rpc-server', version: '1.0.1'
 ```
 #####  step2:定义一个服务端接口HelloRpc4jService
 ```
@@ -56,7 +56,7 @@ maven:
 ```
 gradle:
 ```$xslt
-compile group: 'com.github.microcmpt', name: 'msa-rpc-client', version: '1.0-SNAPSHOT'
+compile group: 'com.github.microcmpt', name: 'msa-rpc-client', version: '1.0.1'
 ```
 ##### step2:配置RpcClientFactory
 ```

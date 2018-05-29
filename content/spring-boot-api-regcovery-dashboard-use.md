@@ -2,6 +2,19 @@
 ### Introduction
 用于和spring boot结合自动配置，开启服务注册中心web控制台，可以查看服务注册中心服务信息详细或者删除新增修改服务操作。
 ### Quick Start
+引入spring-boot-api-regcovery-dashboard包
+maven:
+```
+<dependency>
+  <groupId>com.github.microcmpt</groupId>
+  <artifactId>spring-boot-api-regcovery-dashboard-starter</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+gradle:
+```
+compile 'com.github.microcmpt:spring-boot-api-regcovery-dashboard-starter:1.0.0'
+```
 开启注册中心web控制台，在启动类上加@EnableRegcoveryDashboard
 ```$xslt
 @SpringBootApplication
