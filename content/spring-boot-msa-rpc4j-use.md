@@ -9,7 +9,7 @@ maven:
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>spring-boot-msa-rpc4j-starter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 gradle:
@@ -67,7 +67,7 @@ maven:
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>spring-boot-msa-rpc4j-starter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 gradle:

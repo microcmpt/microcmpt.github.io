@@ -10,7 +10,7 @@ maven:
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>msa-rpc-server</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 gradle:
@@ -51,7 +51,7 @@ maven:
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>msa-rpc-client</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 gradle:
