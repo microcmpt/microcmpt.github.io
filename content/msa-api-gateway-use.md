@@ -9,6 +9,11 @@ msa-api-gateway是服务网关，使用服务网关统一拦截外部请求，�
 - 高可用
 
 ### Quick Start
+step1:启动服务网关
+```$xslt
+pm2 start zk_app.js
+```
+step2:发送http请求
 ```$xslt
 curl -H 'Application-Name:sampleConsumer' http://localhost:1025/api/hello/123
 ```
