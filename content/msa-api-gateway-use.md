@@ -9,11 +9,15 @@ msa-api-gateway是服务网关，使用服务网关统一拦截外部请求，�
 - 高可用
 
 ### Quick Start
-step1:启动服务网关
+step1:找到服务网关根目录下的zk_app.js文件，配置里面服务注册中心地址：
+```$xslt
+CONNECTION_STRING=你的zookeeper地址，多个以,分割
+```
+step2:启动服务网关
 ```$xslt
 pm2 start zk_app.js
 ```
-step2:发送http请求
+step3:发送http请求
 ```$xslt
 curl -H 'Application-Name:sampleConsumer' http://localhost:1025/api/hello/123
 ```
