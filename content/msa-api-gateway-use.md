@@ -12,3 +12,4 @@ msa-api-gateway是服务网关，使用服务网关统一拦截外部请求，�
 ```$xslt
 curl -H 'Application-Name:sampleConsumer' http://localhost:1025/api/hello/123
 ```
+> Application-Name：注册到注册中心时的应用名
