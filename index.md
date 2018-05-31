@@ -1,6 +1,5 @@
 ## _Microcmpt_
-[Download](http://mvnrepository.com/search?q=microcmpt)<br/>
-[View on GitHub](https://github.com/microcmpt)
+[[Downloads]](http://mvnrepository.com/search?q=microcmpt) [View on GitHub](https://github.com/microcmpt)
 
 ---
 ### Developers
