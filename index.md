@@ -1,4 +1,11 @@
-## [Downloads](http://mvnrepository.com/search?q=microcmpt)
+<section class="page-header">
+
+    [View on GitHub](https://github.com/pages-themes/cayman)
+
+    [Download .zip](https://github.com/pages-themes/cayman/zipball/master)
+    [Download .tar.gz](https://github.com/pages-themes/cayman/tarball/master)
+
+</section>
 ## _Microcmpt_
 
 ### Developers
