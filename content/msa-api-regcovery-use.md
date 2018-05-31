@@ -6,3 +6,7 @@ api-regcovery是服务注册中心，主要提供服务的注册和发现两大�
  - 可伸缩
  - 高可用
  - 负载均衡(目前只使用随机负载均衡算法)
+ 
+ ---
+ ### Download
+ [Download msa-api-regcovery](http://central.maven.org/maven2/com/github/microcmpt/msa-api-regcovery/1.0.2/msa-api-regcovery-1.0.2.jar)
