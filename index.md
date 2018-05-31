@@ -1,9 +1,5 @@
-
-
-[View on GitHub](https://github.com/pages-themes/cayman)
-
-[Download .zip](https://github.com/pages-themes/cayman/zipball/master)
-[Download .tar.gz](https://github.com/pages-themes/cayman/tarball/master)
+[View on GitHub](https://github.com/microcmpt)
+[Download](http://mvnrepository.com/search?q=microcmpt)
 ## _Microcmpt_
 
 ### Developers
