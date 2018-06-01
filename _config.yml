@@ -1,6 +1,6 @@
 title: MICROCMPT
 theme: jekyll-theme-cayman
-url: "https://github.com/microcmpt"
+url: https://www.microcmpt.io
 description: 微服务架构解决方案，让微服务落地更容易，更轻量级
 #highlighter: rogue
 plugins:
