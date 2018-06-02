@@ -28,7 +28,7 @@
 
 ---
 ## - Contributors
-沈夏平@<1378127237@qq.com>，刘颖@<woshibihu@qq.com>
+👨沈夏平@<1378127237@qq.com>，👨刘颖@<woshibihu@qq.com>
 
 ---
 ## - Sample for Microcmpt
