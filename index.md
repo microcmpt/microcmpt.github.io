@@ -33,3 +33,5 @@ Microcmpt是基于**Spring Boot**框架的微服务架构落地解决方案，�
 ---
 ## - Sample for Microcmpt
 microcmpt的组件如何使用？具体代码见：[Microcmpt Sample On GitHub](https://github.com/microcmpt/msa-sample)
+______
+<center>ICP主体备案号:粤ICP备18054530号-1</center>
