@@ -35,4 +35,4 @@
 microcmpt的组件如何使用？具体代码见：[Microcmpt Sample On GitHub](https://github.com/microcmpt/msa-sample)
 
 ___
-<center>Microcmpt by xiapshen</center>
+<center>Copyright © 2018 Microcmpt Group</center>
