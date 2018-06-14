@@ -28,7 +28,7 @@ Microcmpt是基于`Spring Boot`框架的微服务架构落地解决方案，它�
 
 ---
 ## - Contributors
-![](images/contributor.png)沈夏平`@<1378127237@qq.com>`，![](images/contributor.png)`刘颖@<woshibihu@qq.com>`
+![](images/contributor.png)沈夏平@<1378127237@qq.com>，![](images/contributor.png)刘颖@<woshibihu@qq.com>
 
 ---
 ## - Sample for Microcmpt
