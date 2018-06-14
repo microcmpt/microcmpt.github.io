@@ -16,10 +16,5 @@ java -Dconfig.path.prefix=config目录 -jar msa-scheduler-1.0.0.jar
 curl -H "Content-Type:application/json" -X POST --data '{"jobName":"job","jobGroupName":"","cron":"0/10 * * * * ?","triggerName":"","triggerGroupName":"jobGroup","applicationId":"sampleConsumer","uri":"/api/hello/sxp","jobDescription":"job"}' http://localhost:8083/api/v1/add
 ```
 ### scheduler.properties属性说明
-property | value | description
-- | :-: | -:
-scheduler.zk.addresses | localhost:2181| zookeeper服务注册中心地址
-scheduler.mail.enable | true|false | 是否开启邮箱
-scheduler.mail.host | smtp.qq.com | 邮箱主机域名
-scheduler.mail.username | 1378127237@qq.com | 发送邮件地址
+
 ### API
