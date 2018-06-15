@@ -16,7 +16,7 @@ java -Dconfig.path.prefix=config目录 -jar msa-scheduler-1.0.0.jar
 curl -H "Content-Type:application/json" -X POST --data '{"jobName":"job","jobGroupName":"","cron":"0/10 * * * * ?","triggerName":"","triggerGroupName":"jobGroup","applicationId":"sampleConsumer","uri":"/api/hello/sxp","jobDescription":"job"}' http://localhost:8083/api/v1/add
 ```
 ### scheduler.properties
-```
+```aidl
 // zookeeper
 scheduler.zk.addresses=localhost:2181
 
@@ -30,7 +30,7 @@ scheduler.mail.username=1378127237@qq.com
 // 发送邮箱授权码
 scheduler.mail.password=mestuwkkygoigaje
 scheduler.mail.protocol=smtp
-// 接收邮件人邮箱，可填写多个，多个以英文逗号分隔
+# 接收邮件人邮箱，可填写多个，多个以英文逗号分隔
 scheduler.mail.to=1378127237@qq.com
 scheduler.mail.properties.mail.smtp.auth=true 
 scheduler.mail.properties.mail.smtp.starttls.enable=true
