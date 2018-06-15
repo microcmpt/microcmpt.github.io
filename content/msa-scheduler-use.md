@@ -15,3 +15,9 @@ java -Dconfig.path.prefix=config目录 -jar msa-scheduler-1.0.0.jar
 ```
 curl -H "Content-Type:application/json" -X POST --data '{"jobName":"job","jobGroupName":"","cron":"0/10 * * * * ?","triggerName":"","triggerGroupName":"jobGroup","applicationId":"sampleConsumer","uri":"/api/hello/sxp","jobDescription":"job"}' http://localhost:8083/api/v1/add
 ```
+### scheduler.properties
+|id|name|
+|:-|:-|
+|1|A1|
+|2|A2|
+|3|A3|
