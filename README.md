@@ -19,12 +19,10 @@ Microcmpt是基于`Spring Boot`框架的微服务架构落地解决方案，它�
    - [`msa-scheduler`](content/msa-scheduler-use.md)
  
 ---
-## - Download && Source
+## - Download
  - [Downloads]
    - [`SDK`](http://mvnrepository.com/search?q=microcmpt)    
    - [`NPM`](https://www.npmjs.com/package/msa-api-gateway)  
- - [Sources]
-   - [`View Source On Github`](https://github.com/microcmpt)
 
 ---
 ## - Contributors

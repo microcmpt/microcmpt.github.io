@@ -5,6 +5,7 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 - 可伸缩
 - 错失触发
 - 任务优先级
+
 ### Quick Start
 ##### step1:将config目录置于你认为适合的路径下
 ##### step2:启动msa-scheduler
