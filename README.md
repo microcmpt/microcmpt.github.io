@@ -24,8 +24,8 @@ Microcmpt是基于`Spring Boot`框架的微服务架构落地解决方案，它�
 ---
 ## - Download
  - [Downloads]
-   - [`SDK`](http://mvnrepository.com/search?q=microcmpt)    
-   - [`NPM`](https://www.npmjs.com/package/msa-api-gateway)  
+   - [`SDK Download`](http://mvnrepository.com/search?q=microcmpt)    
+   - [`NPM Download`](https://www.npmjs.com/package/msa-api-gateway)  
 
 ---
 ## - Contributors
