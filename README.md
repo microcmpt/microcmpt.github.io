@@ -7,6 +7,7 @@ Microcmpt是基于`Spring Boot`框架的微服务架构落地解决方案，它�
 ![](images/microcmpt.png)
 
  - [RPC框架]
+   - [![avatar](images/msa-rpc4j.png)](content/msa-rpc4j-use.md)
    - ![avatar](images/msa-rpc4j.png)
    - [`msa-rpc4j`](content/msa-rpc4j-use.md)
    - [`spring-boot-msa-rpc4j`](content/spring-boot-msa-rpc4j-use.md)
