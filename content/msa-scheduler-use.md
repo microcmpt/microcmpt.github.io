@@ -18,3 +18,10 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
   
 ##### step3:添加一个定时任务
 访问http://localhost:8080/scheduler-ui.html，新增任务
+
+### Properties Introduction
+ | 属性 | 值 | 说明 |
+ | -------- | -----: | :----: | 
+ | scheduler.zk.enable | true/false | 开启zk服务注册中心，默认为false | 
+ | scheduler.zk.addresses | localhost:2181 | zk访问地址，根据自己的zk地址而定，多个以英文逗号分隔 | 
+ | scheduler.mail.enable | true/false | 是否开启发送邮件通知 |
