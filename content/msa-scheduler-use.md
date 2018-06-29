@@ -7,8 +7,8 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 - 任务优先级
 
 ### Quick Start
-##### step1:下载zip
-![scheduler-1.0.0.zip]()
+##### step1:下载zip并解压
+![scheduler-1.0.0.zip](https://github.com/microcmpt/msa-scheduler/blob/master/downloads/1.0.0/msa-scheduler-1.0.0.zip)
 
 ##### step2:启动scheduler
 - [windows]
