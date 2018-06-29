@@ -7,12 +7,14 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 - 任务优先级
 
 ### Quick Start
-##### step1:将config目录置于你认为适合的路径下
-##### step2:启动msa-scheduler
-```
-java -Dconfig.path.prefix=config目录 -jar msa-scheduler-1.0.0.jar
-```
+##### step1:下载zip
+![scheduler-1.0.0.zip]()
+
+##### step2:启动scheduler
+- [windows]
+  执行start-scheduler.cmd脚本
+- [linux]
+  执行start-scheduler.sh脚本
+  
 ##### step3:添加一个定时任务
-```
-curl -H "Content-Type:application/json" -X POST --data '{"jobName":"job","jobGroupName":"","cron":"0/10 * * * * ?","triggerName":"","triggerGroupName":"jobGroup","applicationId":"sampleConsumer","uri":"/api/hello/sxp","jobDescription":"job"}' http://localhost:8083/api/v1/add
-```
+访问http://localhost:8080/scheduler-ui.html，新增任务
