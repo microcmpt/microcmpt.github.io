@@ -116,7 +116,7 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
    <tr>
       <td>scheduler.quartz.jobStore.isClustered</td>
       <td>true/false</td>
-      <td>开启集群/td>
+      <td>开启集群</td>
    </tr>
    <tr>
       <td>scheduler.quartz.jobStore.clusterCheckinInterval</td>
