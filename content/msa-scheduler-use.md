@@ -20,8 +20,15 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 访问http://localhost:8080/scheduler-ui.html，新增任务
 
 ### Properties Introduction
- | 属性 | 值 | 说明 |
- | -------- | -----: | :----: | 
- | 香蕉 | $1 | 5 |
- | 苹果 | $1 | 6 |
- | 草莓 | $1 | 7 |
+<table>
+   <th>属性</th>
+   <th>值</th>
+   <th>说明</th>
+   <tr>
+      <td>scheduler.zk.enable</td>
+      <td>true/false</td>
+      <td>开启zk服务注册中心，默认为false</td>
+   </tr>
+
+
+</table>
