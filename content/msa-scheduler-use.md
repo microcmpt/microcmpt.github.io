@@ -23,9 +23,11 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 
 ### Properties Introduction
 <table>
-   <th>属性</th>
-   <th>值</th>
-   <th>说明</th>
+   <tr>
+      <th>属性</th>
+      <th>值</th>
+      <th>说明</th>
+   </tr>
    <tr>
       <td>scheduler.zk.enable</td>
       <td>true/false</td>
