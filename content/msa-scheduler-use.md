@@ -55,7 +55,7 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
    </tr>
    <tr>
       <td>scheduler.mail.password</td>
-      <td>brVzdHV3a2t5Z29pZ2FqZTFxMnczZTRyIUAjJA==</td>
+      <td></td>
       <td>发送人邮箱授权码，加密后的</td>
    </tr>
    <tr>
