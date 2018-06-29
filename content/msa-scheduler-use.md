@@ -24,9 +24,9 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 ### Properties Introduction
 <table>
    <tr>
-      <th>属性</th>
-      <th>值</th>
-      <th>说明</th>
+      <td>属性</td>
+      <td>值</td>
+      <td>说明</td>
    </tr>
    <tr>
       <td>scheduler.zk.enable</td>
@@ -148,4 +148,3 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
       <td>示例格式：13</td>
       <td>quartz核心线程池大小</td>
    </tr>  
-</table>
