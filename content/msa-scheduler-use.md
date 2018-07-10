@@ -162,6 +162,7 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
    </tr>  
  </table>
  
+ 
  ### Open mail notification
  ##### step1:通过提供的工具，对scheduler.mail.password加密并修改config/scheduler.properties中scheduler.mail.password的值
  工具下载：[mail-encrypt](https://github.com/microcmpt/microcmpt.github.io/blob/master/downloads/scheduler/mail-encrypt.jar)
