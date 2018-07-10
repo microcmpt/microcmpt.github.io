@@ -161,3 +161,7 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
       <td>eureka服务注册中心url</td>
    </tr>  
  </table>
+ 
+ ### Open mail notification
+ 如果你需要开启邮箱通知的，那你需要将邮箱密码授权码通过提供的工具加密后再去修改config/scheduler.properties中scheduler.mail.password的值，
+ 工具下载：[mail-encrypt]()
