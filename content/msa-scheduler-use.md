@@ -9,8 +9,8 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 
 ### Quick Start
 ##### step1:下载zip并解压
-- [scheduler-1.0.0.zip](https://github.com/microcmpt/msa-scheduler/blob/master/downloads/1.0.0/msa-scheduler-1.0.0.zip)
-- [scheduler-1.0.1.zip](https://github.com/microcmpt/msa-scheduler/blob/master/downloads/1.0.1/msa-scheduler-1.0.1.zip)
+- [scheduler-1.0.0.zip](https://github.com/microcmpt/microcmpt.github.io/blob/master/downloads/scheduler/1.0.0/msa-scheduler-1.0.0.zip)
+- [scheduler-1.0.1.zip](https://github.com/microcmpt/microcmpt.github.io/blob/master/downloads/scheduler/1.0.1/msa-scheduler-1.0.1.zip)
 
 ##### step2:执行doc下的sql脚本
 
@@ -163,5 +163,18 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
  </table>
  
  ### Open mail notification
- 如果你需要开启邮箱通知的，那你需要将邮箱密码授权码通过提供的工具加密后再去修改config/scheduler.properties中scheduler.mail.password的值，
- 工具下载：[mail-encrypt]()
+ ##### step1:通过提供的工具，对scheduler.mail.password加密并修改config/scheduler.properties中scheduler.mail.password的值
+ 工具下载：[mail-encrypt](https://github.com/microcmpt/microcmpt.github.io/blob/master/downloads/scheduler/mail-encrypt.jar)
+ 
+ ##### step2:运行加密工具包
+ ```aidl
+java -jar mail-encrypt.jar
+```
+
+##### step3:根据提示，输入你要加密的邮箱授权码，按回车键，加密后的密码会显示在窗口下方
+```text
+Please input your encode data:
+123456
+After your encode data is:MTIzNDU2MXEydzNlNHIhQCMk
+
+```
