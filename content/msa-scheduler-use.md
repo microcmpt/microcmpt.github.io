@@ -5,6 +5,7 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 - 可伸缩
 - 错失触发
 - 任务优先级
+- 发送http请求调用任务，将定时任务从应用中解耦（支持spring cloud eureka服务发现、microcmpt服务发现以及传统的url）
 
 ### Quick Start
 ##### step1:下载zip并解压
@@ -15,9 +16,9 @@ msa-scheduler是为调度众多定时任务而生的调度中心，msa-scheduler
 
 ##### step3:启动scheduler
 - [windows]
-  执行start-scheduler.cmd脚本
+  执行scheduler.cmd脚本
 - [linux]
-  执行start-scheduler.sh脚本
+  执行scheduler.sh脚本
   
 ##### step4:添加一个定时任务
 访问http://localhost:8080/scheduler-ui.html，新增任务
