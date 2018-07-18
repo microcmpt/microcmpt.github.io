@@ -9,7 +9,7 @@ maven:
 <dependency>
   <groupId>com.github.microcmpt</groupId>
   <artifactId>spring-boot-api-regcovery-dashboard-starter</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.4</version>
 </dependency>
 ```
 gradle:
@@ -19,7 +19,6 @@ compile 'com.github.microcmpt:spring-boot-api-regcovery-dashboard-starter:1.0.0'
 step2:开启注册中心web控制台，在启动类上加@EnableRegcoveryDashboard
 ```$xslt
 @SpringBootApplication
-@EnableRpc4jServer
 @EnableRegcoveryDashboard
 public class Rpc4jServerSampleApplication {
 	public static void main(String[] args) {
